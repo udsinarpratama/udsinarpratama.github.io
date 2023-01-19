@@ -1,0 +1,43 @@
+{
+    "menuhome": "Home",
+    "menuproducts": "Produk",
+    "menuservices": "Layanan",
+    "menuregulation": "Regulasi",
+    "menutestimonial" : "Testimoni",
+    "menucontact" : "Kontak",
+
+    "slideH2" : "Arak Tradisional Bali",
+    "slide1des" : "\"Aroma arak Bali, minuman keras tradisional yang disuling, membangkitkan kenangan akan budaya pulau yang kaya dan warisan yang semarak.\"",
+    "slide2des" : "\"Arak Bali membisikkan simfoni rasa, perayaan budaya pulau di setiap tegukan.\"",
+    "slide3des" : "\"Arak Bali adalah harta cair, menangkap esensi pulau di setiap tetesnya.\"",
+    "txtmoreinfo" : "Info Selengkapnya",
+
+    "sizeH3" : "Ukuran",
+
+    "section2span" : "KAMI SIAP MELAYANI ANDA",
+    "textwelcome" : "Selamat Datang Di UD. Sinar Pratama",
+    "textwelcomedes" : "\"Kami berdedikasi untuk melayani Anda dengan keunggulan dan profesionalisme, inilah layanan dan bonus yang kami berikan kepada Anda\"",
+    "servisDirect" : "PENGIRIMAN LANGSUNG KE LOKASI ANDA",
+    "servisDirectdes" : "\"Pengiriman langsung ke lokasi Anda\" adalah layanan dimana kami langsung mengantarkan paket atau pesanan Anda ke alamat yang Anda berikan. Anda dapat mempercayai kami untuk mengirimkan paket Anda dengan cepat dan aman, sehingga Anda dapat menikmati pembelian Anda sesegera mungkin.",
+    "servisPurchase" : "PEMBELIAN MELALUI TOKO ONLINE",
+    "servisPurchasedes" : "\"Pembelian Melalui Marketplace\" adalah layanan yang memungkinkan Anda melakukan pembelian melalui beberapa marketplace online hanya dengan satu kali transaksi. Layanan ini juga memungkinkan Anda untuk melacak pesanan Anda, membayar dengan aman, dan mendapatkan dukungan dari layanan pelanggan jika ada masalah dengan pembelian Anda.",
+    "servisDiscounts" : "DISKON DAN HADIAH",
+    "servisDiscountsdes" : "Untuk setiap pembelian minimum, Anda akan mendapatkan potongan harga dan produk gratis sebagai hadiah atas kesetiaan Anda.",
+
+    "section3Regulation" : "Regulasi",
+    "section3RegulationH2" : "YANG MEMBUAT ANDA NYAMAN, AMAN",
+    "section3RegulationdesP1" : "\"Sebagai produsen arak tradisional Bali yang sudah berpengalaman sejak tahun 2006, UD Sinar Pratama menjamin kualitas dan keamanan produk kami melalui penerapan regulasi yang ketat dan diterima melalui Perizinan Berusaha Berbasis Risiko melalui Sistem Online Single Submission (OSS). Kami selalu mengutamakan kualitas dan keamanan produk kami agar dapat memberikan pengalaman yang memuaskan bagi para pelanggan kami.\"",
+    "section3RegulationdesP2" : "\"Dengan regulasi yang ketat dan diterima melalui Perizinan Berusaha Berbasis Risiko melalui Sistem Online Single Submission (OSS), kami yakin dapat memberikan produk arak tradisional Bali yang berkualitas dan aman bagi para pelanggan kami. Kami selalu berupaya untuk meningkatkan kualitas produk kami agar dapat memberikan pengalaman yang memuaskan bagi para pelanggan kami.\"",
+
+    "section4H3" : "APA YANG KAMI KATAKAN",
+    "section4H2" : "Testimoni Pelanggan",
+
+    "section5H3" : "Tetap Berhubungan",
+    "section5H2" : "Kirim Pesan",
+    "textname" : "Nama Anda",
+    "placeholder-name" : "Masukkan nama Anda",
+    "placeholder-emailofwhatsapp" : "Masukkan alamat email atau whatsapp anda",
+    "textmessage" : "Pesan",
+    "placeholder-message" : "Ketikkan pesan anda disini...",
+    "btnSubmit" : "Kirim <i class=\"fa fa-long-arrow-right m-l-7\" aria-hidden=\"true\"></i>"
+}

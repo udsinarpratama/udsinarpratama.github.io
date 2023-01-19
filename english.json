@@ -1,0 +1,43 @@
+{
+    "menuhome": "Home",
+    "menuproducts": "Products",
+    "menuservices": "Services",
+    "menuregulation": "Regulation",
+    "menutestimonial" : "Testimonial",
+    "menucontact" : "Contact",
+
+    "slideH2" : "The Bali's Arak Traditional",
+    "slide1des" : "\"The aroma of Bali's arak, a traditional distilled spirit, evokes memories of the island's rich culture and vibrant heritage.\"",
+    "slide2des" : "\"Bali's arak whispers a symphony of flavors, a celebration of island culture in every sip.\"",
+    "slide3des" : "\"Bali's arak is a liquid treasure, capturing the essence of the island in every drop.\"",
+    "txtmoreinfo" : "More Info",
+
+    "sizeH3" : "Size",
+
+    "section2span" : "We Are Available To Serve You",
+    "textwelcome" : "Welcome To UD. Sinar Pratama",
+    "textwelcomedes" : "\"We are dedicated to serving you with excellence and professionalism, here is the service and bonus that we give to you\"",
+    "servisDirect" : "Direct delivery to your location",
+    "servisDirectdes" : "\"Direct delivery to your location\" is a service where we directly deliver your package or order to the address you have provided. You can trust us to deliver your package quickly and safely, so you can enjoy your purchase as soon as possible.",
+    "servisPurchase" : "Purchase Through Marketplaces",
+    "servisPurchasedes" : "\"Purchase Through Marketplaces\" is a service that allows you to make purchases through multiple online marketplaces with just one transaction. This service also allows you to track your order, pay securely and get support from customer service if there's any issue with your purchase.",
+    "servisDiscounts" : "Discounts and Gifts",
+    "servisDiscountsdes" : "With every minimum purchase, you will receive a discounted price and a complimentary product as a reward for your loyalty.",
+
+    "section3Regulation" : "Regulation",
+    "section3RegulationH2" : "THAT MAKES YOU COMFORTABLE, SAFE",
+    "section3RegulationdesP1" : "\"As a traditional Bali arak producer with experience since 2006, UD Sinar Pratama guarantees the quality and safety of our products through strict regulations and Risk-Based Business License Permit through Online Single Submission (OSS) system. We always prioritize the quality and safety of our products to provide a satisfying experience for our customers.\"",
+    "section3RegulationdesP2" : "\"With strict regulations and acceptance through Risk-Based Business License Permit through the Online Single Submission (OSS) system, we are confident in providing our customers with high-quality and safe traditional Bali arak products. We are constantly working to improve the quality of our products to provide a satisfying experience for our customers.\"",
+
+    "section4H3" : "What We Say",
+    "section4H2" : "Customer Testimonial",
+
+    "section5H3" : "Keep In Touch",
+    "section5H2" : "Send A Message",
+    "textname" : "Your Name",
+    "placeholder-name" : "Enter your name",
+    "placeholder-emailofwhatsapp" : "Enter your email addess or whatsapp",
+    "textmessage" : "Message",
+    "placeholder-message" : "Your message here...",
+    "btnSubmit" : "Submit <i class=\"fa fa-long-arrow-right m-l-7\" aria-hidden=\"true\"></i>"
+}

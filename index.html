@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/card.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- <script src="js/change.js"></script> -->
 
     </head>
     <body>
@@ -43,10 +44,10 @@
                                                 <div class="row">
                                                     <div class="col-md-9 col-sm-9 col-xs-9">
                                                         <div class="row">
-                                                            <div class="col-md-3 col-xs-3 col-sm-3">
-                                                                <a style="padding-top:0px;" class="navbar-brand navBrandText text-uppercase font-weight-bold" href="index.html"><img src="img/logo/sip.png" alt="restorant" /></a>
+                                                            <!-- <div class="col-md-3 col-xs-3 col-sm-3"> -->
+                                                                <a style="padding-top:0px; padding-left: 15px!important; display: flex; align-items: center; " class="navbar-brand navBrandText text-uppercase font-weight-bold" href="index.html"><img src="img/logo/Ms__1_-removebg-preview.png" alt="restorant" /></a>
                                                                 
-                                                            </div>
+                                                            <!-- </div> -->
                                                         </div>
                                                     </div>
                                                     <div class="col-md-3 col-sm-3 col-xs-3">
@@ -63,13 +64,21 @@
                                                      
                                             <!-- Collect the nav links, forms, and other content for toggling -->
                                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                            <ul class="nav navbar-nav navbar-right navBar">
-                                                    <li class="nav-item"><a href="#section0" class="nav-link text-uppercase font-weight-bold js-scroll-trigger">Home <span class="sr-only">(current)</span></a></li>
-                                                    <li class="nav-item"><a href="#section1" class="nav-link text-uppercase font-weight-bold js-scroll-trigger">Products</a></li>
-                                                    <li class="nav-item"><a href="#section2" class="nav-link text-uppercase font-weight-bold js-scroll-trigger">Services</a></li>
-                                                    <li class="nav-item"><a href="#section3" class="nav-link text-uppercase font-weight-bold js-scroll-trigger">Regulation</a></li>
-                                                    <li class="nav-item"><a href="#section4" class="nav-link text-uppercase font-weight-bold js-scroll-trigger">Testimonial</a></li>
-                                                    <li class="nav-item"><a href="#section5" class="nav-link text-uppercase font-weight-bold js-scroll-trigger">Contact</a></li>
+                                                <ul class="nav navbar-nav navbar-right navBar">
+                                                    <li class="nav-item"><a href="#section0" class="nav-link text-uppercase font-weight-bold js-scroll-trigger menuhome">Home <span class="sr-only">(current)</span></a></li>
+                                                    <li class="nav-item"><a href="#section1" class="nav-link text-uppercase font-weight-bold js-scroll-trigger menuproducts">Products</a></li>
+                                                    <li class="nav-item"><a href="#section2" class="nav-link text-uppercase font-weight-bold js-scroll-trigger menuservices">Services</a></li>
+                                                    <li class="nav-item"><a href="#section3" class="nav-link text-uppercase font-weight-bold js-scroll-trigger menuregulation">Regulation</a></li>
+                                                    <li class="nav-item"><a href="#section4" class="nav-link text-uppercase font-weight-bold js-scroll-trigger menutestimonial">Testimonial</a></li>
+                                                    <li class="nav-item"><a href="#section5" class="nav-link text-uppercase font-weight-bold js-scroll-trigger menucontact">Contact</a></li>
+                                                    <li class="nav-item">
+                                                        <form action="" style="padding-top: 10px; padding-bottom: 10px;">
+                                                            <input id="chck" type="checkbox">
+                                                            <label for="chck" class="check-trail">
+                                                            <span class="check-handler"></span>
+                                                            </label>
+                                                        </form>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -86,7 +95,7 @@
         <section id="section0" class="slider-area"> 
             <div class="main-slider owl-theme owl-carousel"> 
                 <!-- Start Slingle Slide -->
-                <div class="single-slide item" style="background-image: url(img/slider/slide2.png); background-position: center; background-size: cover;">
+                <div class="single-slide item Slide1" style="background-image: url(img/slider/slide2.png); background-position: center; background-size: cover;">
 
 
                     <!-- <img src="img/slider/placehold.png"> -->
@@ -98,10 +107,10 @@
                                 <div class="slide-content">
                                     <img class="classic" src="img/logo/Ms__1_-removebg-preview.png">
                                     <h3>UD. SINAR PRATAMA </h3>
-                                    <h2>The Bali's Arak Traditional</h2>
-                                    <p>"The aroma of Bali's arak, a traditional distilled spirit, evokes memories of the island's rich culture and vibrant heritage."</p>
+                                    <h2 class="slideH2">The Bali's Arak Traditional</h2>
+                                    <p class="slide1des">"The aroma of Bali's arak, a traditional distilled spirit, evokes memories of the island's rich culture and vibrant heritage."</p>
 
-                                    <a class="default-btn" href="#section5">More Info</a>
+                                    <a class="default-btn txtmoreinfo" href="#section5">More Info</a>
                                     <img class="classic" src="img/new/icon.png">
 
                                 </div>
@@ -123,10 +132,10 @@
                                 <div class="slide-content">
                                     <img class="classic" src="img/logo/Ms__1_-removebg-preview.png">
                                     <h3>UD. SINAR PRATAMA </h3>
-                                    <h2>The Bali's Arak Traditional</h2>
-                                    <p>"Bali's arak whispers a symphony of flavors, a celebration of island culture in every sip."</p>
+                                    <h2 class="slideH2">The Bali's Arak Traditional</h2>
+                                    <p class="slide2des">"Bali's arak whispers a symphony of flavors, a celebration of island culture in every sip."</p>
 
-                                    <a class="default-btn" href="#section5">More Info</a>
+                                    <a class="default-btn txtmoreinfo" href="#section5">More Info</a>
                                     <img class="classic" src="img/new/icon.png">
 
                                 </div>
@@ -146,10 +155,10 @@
                                 <div class="slide-content">
                                     <img class="classic" src="img/logo/Ms__1_-removebg-preview.png">
                                     <h3>UD. SINAR PRATAMA </h3>
-                                    <h2>The Bali's Arak Traditional</h2>
-                                    <p>"Bali's arak is a liquid treasure, capturing the essence of the island in every drop."</p>
+                                    <h2 class="slideH2">The Bali's Arak Traditional</h2>
+                                    <p class="slide3des">"Bali's arak is a liquid treasure, capturing the essence of the island in every drop."</p>
 
-                                    <a class="default-btn" href="#section5">More Info</a>
+                                    <a class="default-btn txtmoreinfo" href="#section5">More Info</a>
                                     <img class="classic" src="img/new/icon.png">
 
                                 </div>
@@ -166,7 +175,7 @@
         <section id="section1" class="topOff">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="col-md-6 col-lg-4" style="margin-bottom: 20px;">
                       <div class="card">
                         <div class="imgBx">
                           <img src="img/products/produk1.png">
@@ -174,7 +183,7 @@
                         <div class="contentBx">
                           <h2 style="font-size: 2.2em;">Nike Shoes</h2>
                           <div class="size">
-                            <h3>Size :</h3>
+                            <h3 class="sizeH3">Size :</h3>
                             <span>250ml</span>
                             <span>600ml</span>
                             <span>1500ml</span>
@@ -182,7 +191,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="col-md-6 col-lg-4" style="margin-bottom: 20px;">
                       <div class="card">
                         <div class="imgBx">
                           <img src="img/products/produk1.png">
@@ -190,7 +199,7 @@
                         <div class="contentBx">
                           <h2 style="font-size: 2.2em;">Nike Shoes</h2>
                           <div class="size">
-                            <h3>Size :</h3>
+                            <h3 class="sizeH3">Size :</h3>
                             <span>250ml</span>
                             <span>600ml</span>
                             <span>1500ml</span>
@@ -198,7 +207,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="col-md-6 col-lg-4" style="margin-bottom: 20px;">
                       <div class="card">
                         <div class="imgBx">
                           <img src="img/products/produk1.png">
@@ -206,7 +215,7 @@
                         <div class="contentBx">
                           <h2 style="font-size: 2.2em;">Nike Shoes</h2>
                           <div class="size">
-                            <h3>Size :</h3>
+                            <h3 class="sizeH3">Size :</h3>
                             <span>250ml</span>
                             <span>600ml</span>
                             <span>1500ml</span>
@@ -224,35 +233,35 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 ">
                         <div class="maintext text-center">
-                            <span>We Are Available To Serve You</span>
-                            <h2>Welcome To UD. Sinar Pratama</h2>
-                            <p>"We are dedicated to serving you with excellence and professionalism, here is the service and bonus that we give to you"</p>                        
+                            <span class="section2span">We Are Available To Serve You</span>
+                            <h2 class="textwelcome">Welcome To UD. Sinar Pratama</h2>
+                            <p class="textwelcomedes">"We are dedicated to serving you with excellence and professionalism, here is the service and bonus that we give to you"</p>                        
                             </div>  
                     </div>
                 </div>
                 <div class="row shapes">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 50px;">
                         <div class="row">
                             <div class="col-md-12 minHeightProp">
                                 <img class="imgback" src="img/shape/track-order.png">
                             </div>
                             <div class="col-md-12">
                                 <div class="text-center">
-                                    <span>Direct delivery to your location</span>
-                                    <p>Direct delivery to your location" is a service where we directly deliver your package or order to the address you have provided. You can trust us to deliver your package quickly and safely, so you can enjoy your purchase as soon as possible.</p>                                
+                                    <span class="servisDirect">Direct delivery to your location</span>
+                                    <p class="servisDirectdes">"Direct delivery to your location" is a service where we directly deliver your package or order to the address you have provided. You can trust us to deliver your package quickly and safely, so you can enjoy your purchase as soon as possible.</p>                                
                                     </div> 
                             </div> 
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 50px;">
                         <div class="row">
                             <div class="col-md-12 minHeightProp">
                                 <img class="imgback" src="img/shape/icons8-online-shopping-50.png">
                             </div>
                             <div class="col-md-12">
                                 <div class="text-center">
-                                    <span>Purchase Through Marketplaces</span>
-                                    <p>Purchase Through Marketplaces" is a service that allows you to make purchases through multiple online marketplaces with just one transaction. This service also allows you to track your order, pay securely and get support from customer service if there's any issue with your purchase.</p>
+                                    <span class="servisPurchase">Purchase Through Marketplaces</span>
+                                    <p class="servisPurchasedes">"Purchase Through Marketplaces" is a service that allows you to make purchases through multiple online marketplaces with just one transaction. This service also allows you to track your order, pay securely and get support from customer service if there's any issue with your purchase.</p>
                                 </div> 
                             </div> 
                         </div> 
@@ -264,8 +273,8 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="text-center">
-                                    <span>Discounts and Gifts</span>
-                                    <p>With every minimum purchase, you will receive a discounted price and a complimentary product as a reward for your loyalty.</p>
+                                    <span class="servisDiscounts">Discounts and Gifts</span>
+                                    <p class="servisDiscountsdes">With every minimum purchase, you will receive a discounted price and a complimentary product as a reward for your loyalty.</p>
                                 </div> 
                             </div> 
                         </div>  
@@ -295,10 +304,10 @@
                 <div class="row">
                      <div class="col-xs-12">
                         <div class="section-title text-center">
-                            <h3>Regulation</h3>
-                            <h2 style="font-size: 3em;">THAT MAKES YOU COMFORTABLE, SAFE</h2>
-                            <p>"As a traditional Bali arak producer with experience since 2006, UD Sinar Pratama guarantees the quality and safety of our products through strict regulations and Risk-Based Business License Permit through Online Single Submission (OSS) system. We always prioritize the quality and safety of our products to provide a satisfying experience for our customers."</p>
-                            <p>"With strict regulations and acceptance through Risk-Based Business License Permit through the Online Single Submission (OSS) system, we are confident in providing our customers with high-quality and safe traditional Bali arak products. We are constantly working to improve the quality of our products to provide a satisfying experience for our customers."</p>
+                            <h3 class="section3Regulation">Regulation</h3>
+                            <h2 class="section3RegulationH2" style="font-size: 3em;">THAT MAKES YOU COMFORTABLE, SAFE</h2>
+                            <p class="section3RegulationdesP1">"As a traditional Bali arak producer with experience since 2006, UD Sinar Pratama guarantees the quality and safety of our products through strict regulations and Risk-Based Business License Permit through Online Single Submission (OSS) system. We always prioritize the quality and safety of our products to provide a satisfying experience for our customers."</p>
+                            <p class="section3RegulationdesP2">"With strict regulations and acceptance through Risk-Based Business License Permit through the Online Single Submission (OSS) system, we are confident in providing our customers with high-quality and safe traditional Bali arak products. We are constantly working to improve the quality of our products to provide a satisfying experience for our customers."</p>
                         </div>
                     </div>
                 </div>
@@ -308,25 +317,31 @@
                             <div id="news-slider" class="news-slider owl-theme owl-carousel">
                                 <div class="post-slide">
                                     <div class="post-img">
-                                        <img src="img/new/productnew.png" alt="">
+                                        <img src="img/new/CCI19012023_0001.jpg" alt="">
                                     </div>
                                 </div>
                  
                                 <div class="post-slide">
                                     <div class="post-img">
-                                        <img src="img/new/productnew.png" alt="">
+                                        <img src="img/new/CCI19012023.jpg" alt="">
                                     </div>
                                 </div>
                                 
                                 <div class="post-slide">
                                     <div class="post-img">
-                                        <img src="img/new/productnew.png" alt="">
+                                        <img src="img/new/CCI19012023_0002.jpg" alt="">
                                     </div>
                                 </div>
                                 
                                 <div class="post-slide">
                                     <div class="post-img">
-                                        <img src="img/new/productnew.png" alt="">
+                                        <img src="img/new/CCI19012023_0003.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="post-slide">
+                                    <div class="post-img">
+                                        <img src="img/new/CCI19012023_0005.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -338,8 +353,8 @@
         <!-- Section3 End -->
         <!-- Testimonial Area Start -->
         <section id="section4" class="parallax-window" data-parallax="scroll" data-image-src="img/testimonial/imageT.png">
-            <h3>What We Say</h3>
-            <h2>Customer Testimonial</h2>
+            <h3 class="section4H3">What We Say</h3>
+            <h2 class="section4H2">Customer Testimonial</h2>
         <div class="testimonial-area owl-theme owl-carousel" >
                
             <div class="col-md-12 col-sm-12 col-xs-12 noPadding text-center">
@@ -383,41 +398,36 @@
         <!-- Contact Start -->
         <section id="section5" class="contact">
             <div class="contact100-form-title container">
-                <h3>Keep In Touch</h3>
-                <h2>Send A Message</h2>
+                <h3 class="section5H3">Keep In Touch</h3>
+                <h2 class="section5H2">Send A Message</h2>
                     <form class="contact100-form validate-form">
                        
 
                         <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
-                            <span class="label-input100">Your Name</span>
-                            <input class="input100" type="text" name="name" placeholder="Enter your name">
+                            <span class="label-input100 textname">Your Name</span>
+                            <input class="input100" type="text" id="name" name="name" placeholder="Enter your name">
                             <span class="focus-input100"></span>
                         </div>
 
                         <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                            <span class="label-input100">Email</span>
-                            <input class="input100" type="text" name="email" placeholder="Enter your email addess">
+                            <span class="label-input100">Email/Whatsapp</span>
+                            <input class="input100" type="text" name="email" id="emailofwhatsapp" placeholder="Enter your email addess or whatsapp">
                             <span class="focus-input100"></span>
                         </div>
 
                         <div class="wrap-input100 validate-input" data-validate = "Message is required">
-                            <span class="label-input100">Message</span>
-                            <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+                            <span class="label-input100 textmessage">Message</span>
+                            <textarea class="input100" name="message" id="message" placeholder="Your message here..."></textarea>
                             <span class="focus-input100"></span>
                         </div>
 
                         <div class="container-contact100-form-btn">
                             <button class="contact100-form-btn">
-                                <span>
+                                <span class="btnSubmit">
                                     Submit
                                     <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
                                 </span>
                             </button>
-                        </div>
-
-                        <div class="container-contact100-form-btn response" style="margin-top: 30px;">
-                            <p class="error">
-                            </p>
                         </div>
                     </form>
                 </div>
@@ -436,6 +446,7 @@
             </div>
         </footer>
         <!-- Footer End -->
+        <script src="js/change.js"></script>
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
         <script src="js/jquery-easing/jquery.easing.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
