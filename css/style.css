@@ -597,6 +597,9 @@ div#news-slider .owl-next {
 * ==========================================
 */
 
+.d-none{
+  display: none;
+}
 
 /* Hide the input */
 input[type=checkbox] {
