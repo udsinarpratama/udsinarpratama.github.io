@@ -42,5 +42,6 @@
     "placeholder-emailofwhatsapp" : "Enter your email addess or whatsapp",
     "textmessage" : "Message",
     "placeholder-message" : "Your message here...",
-    "btnSubmit" : "Submit <i class=\"fa fa-long-arrow-right m-l-7\" aria-hidden=\"true\"></i>"
+    "btnSubmit" : "Submit <i class=\"fa fa-long-arrow-right m-l-7\" aria-hidden=\"true\"></i>",
+    "alertInfo" : "Your message has been successfully sent!"
 }
